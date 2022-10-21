@@ -3,6 +3,7 @@ My fifth project in JetBrains Academy
 
 Task:
 
+Stage 4/4: Convert fractions
 Description
 Fractional numbers can also be converted from one base to another, so let's add this functionality to our program!
 
@@ -15,14 +16,7 @@ The example below shows how to convert the number 0.375 from decimal to base 20:
 Fractional	Integer
 0.375 * 20 =	7 + 0.5
 0.5 * 20 =	10 + 0.0
-Result: 0.375_{10} = 0.7a_{20}
-0.375 
-10
-​
- =0.7a 
-20
-​
- 
+Result: 0.37510=0.7a20
 
 Just like in the previous stage, the input numbers can be large. You might want to consider using java.math.BigDecimal to handle large fractions.
 
